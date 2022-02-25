@@ -1160,3 +1160,9 @@ footer .social-icons li>a, .footer .social-icons li>a:hover{
     font-style:normal;
     color: rgb(85, 84, 84);
 }
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1050px !important;
+}
+}
