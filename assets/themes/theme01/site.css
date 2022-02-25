@@ -422,9 +422,9 @@ h5 {
         /*top: -50px;*/
     }
 
-    .footer .second-footer {
+    /* .footer .second-footer {
         padding-top: 90px;
-    }
+    } */
 }
 
 .ttm-bgcolor-darkgrey, .ttm-bgcolor-darkgrey > .ttm-bg-layer, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-black, .ttm-btn.ttm-btn-style-border.ttm-btn-color-black:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:hover, .ttm-bgcolor-darkgrey .ttm-stickable-header.fixed-header, .ttm-header-style-overlay .ttm-stickable-header.fixed-header, .wrap-form input[type="submit"]:hover, .twentytwenty-handle, .calendar thead th, .calendar.small .calendar-frame tbody td.today, .ttm-testimonial-box-view-style3 .testimonial-content:before, .ttm-tabs.ttm-tab-style-vertical ul.tabs li a, .ttm-tabs.ttm-tab-style-horizontal ul.tabs li a, .featured-icon-box.style4 a.di_link:hover, .ttm-pricing-plan .ttm-ptable-main, .ttm-pricing-plan:not(.ttm-ptablebox-featured-col) .ttm-ptable-icon, .products .product .ttm-shop-icon a, .ttm-nextprev-bottom-nav .nav-previous a:hover, .ttm-nextprev-bottom-nav .nav-next a:hover, .comment-list a.comment-reply-link:hover, div.product button.cart_button, .form-submit input, a.checkout-button, .coupon button, .ttm-cart-form button, .place-order button {
@@ -957,7 +957,7 @@ li.has-submenu .sub-menu.active {
     margin: 10px 0 0;
 }
 .ftop-body h3{
-    font-size: 60px;
+    font-size: 49px;
     font-weight: 400;
     line-height: 70px;
 }
@@ -984,6 +984,9 @@ footer{
 footer h3{
     font-size: 19px;
     line-height: 30px;
+    font-family:open sans,sans-serif;
+    font-style:normal;
+    font-weight:bold;
 }
 .footer .social-icons li > a{
     background: black;
@@ -1116,3 +1119,33 @@ form label {
      background: #fff!important;
      width: 100% !important;
  }
+
+ ._3bLYT svg {
+    fill: #212529;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+.contact-path a{
+    display: flex;
+    align-items: center;
+    font-family:open sans,sans-serif;
+    font-size:16px;
+    font-style:normal;
+    line-height: 2.1em;
+    color: rgb( 47,46,46) !important;
+}
+.contact-path .location{
+    display: flex;
+    align-items: flex-start;
+}
+._3bLYT._2OIRR.location {
+    padding-top: 8px;
+}
+.fa-half{
+    font-size: 1.2em;
+}
+footer .social-icons li>a, .footer .social-icons li>a:hover{
+    border-color: #464646;
+    background: #464646
+}
