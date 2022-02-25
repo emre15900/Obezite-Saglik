@@ -1149,3 +1149,14 @@ footer .social-icons li>a, .footer .social-icons li>a:hover{
     border-color: #464646;
     background: #464646
 }
+.copyright{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+     line-height:1.5;
+    letter-spacing:normal;
+    font-size:11px;
+    font-family:italic normal normal 16px/1.6em poppins-extralight,poppins,sans-serif;
+    font-style:normal;
+    color: rgb(85, 84, 84);
+}
