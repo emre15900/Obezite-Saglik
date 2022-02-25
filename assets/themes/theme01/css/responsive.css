@@ -58,9 +58,9 @@
 
 @media only screen and (min-width: 1200px) {
 
-    #slider-1 .slider1-body {
+    /* #slider-1 .slider1-body {
         margin: 0px 100px !important;
-    }
+    } */
 
     .site-branding2 {
         position: relative !important;
@@ -2043,4 +2043,20 @@
         text-transform: uppercase;
     }
 
+}
+
+@media (min-width: 1200px){
+    .test{
+        display: none;
+        padding: 20px;
+    }
+    .header-container{
+        padding: 50px 0 !important;
+    }
+}
+
+@media (max-width: 1200px){
+    .header-container{
+        padding: 15px;
+    }
 }
