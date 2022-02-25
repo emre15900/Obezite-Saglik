@@ -534,7 +534,7 @@ h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     color: #ffffff;
-    font-size: 27px;
+    font-size: 32px;
 }
 .site-branding2 .header-logo-sub{
     width: 100%;
@@ -543,7 +543,7 @@ h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 18px;
     text-align: start;
 }
 
@@ -573,9 +573,16 @@ h5 {
 } */
 
 #slider-1 .btn {
-    /* margin: 15px 0 15px 50px; */
-    text-transform: uppercase;
+    transition: inherit;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: poppins-extralight,poppins,sans-serif;
     font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    display: initial;
+    margin: 0px 0.5px 0px 0px;
+    padding: 9px;
 }
 
 #slider-1 h2 {
@@ -603,10 +610,9 @@ h5 {
     color: #fff;
     font-size: 13px;
     line-height: 21px;
-
-    font-family: open sans,sans-serif;
-
-    font-weight: 400;
+    margin-bottom: 43px;
+    font-family:open sans,sans-serif;
+    letter-spacing: 0.05em;
 }
 body{
     font-family: poppins-extralight,poppins,sans-serif;
@@ -761,7 +767,7 @@ body{
     border: 1px solid #6298AA;
     color: white !important;
     text-transform: uppercase;
-}
+    margin-top: 43px;}
 
 .btn.btn-default:hover {
     background: #417586;
