@@ -1,0 +1,187 @@
+.youtube-video {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.youtube-video img.standart {
+    width: 100%;
+    top: -16%;
+    left: 0;
+    opacity: 0.7;
+}
+.youtube-video img.max-result {
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.youtube-video .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+
+.youtube-video .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.youtube-video img,
+.youtube-video .play-button {
+    cursor: pointer;
+}
+
+.youtube-video img,
+.youtube-video iframe,
+.youtube-video .play-button,
+.youtube-video .play-button:before {
+    position: absolute;
+}
+
+.youtube-video .play-button,
+.youtube-video .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.youtube-video iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#cookie .cookie-popup {
+    font-size: 0.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    bottom: -6.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    padding: 0.625rem 0.9375rem;
+    box-shadow: 0 0 0.625rem 0 rgba(0,0,0,0.15);
+    line-height: 150%;
+    transition: opacity .5s;
+    opacity: 0;
+}
+#cookie .cookie-popup--short {
+    right: none;
+    width: 21.875rem;
+}
+#cookie .cookie-popup--dark {
+    background: #000;
+    color: #fff;
+}
+#cookie .cookie-popup--not-accepted {
+    opacity: 1;
+    animation: cookie-popup-in .5s ease forwards;
+}
+#cookie .cookie-popup--accepted {
+    opacity: 0;
+}
+#cookie .cookie-popup a {
+    color: skyblue;
+}
+#cookie .cookie-popup a:visited {
+    color: skyblue;
+    text-decoration: none;
+}
+#cookie .cookie-popup-actions {
+    flex: 1;
+    text-align: right;
+}
+#cookie .cookie-popup-actions button {
+    color: orange;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    padding: 0;
+    cursor: pointer;
+}
+#cookie .cookie-popup-actions button:hover {
+    text-decoration: underline;
+}
+@keyframes cookie-popup-in {
+    from {
+        bottom: -6.25rem;
+    }
+    to {
+        bottom: 1.25rem;
+    }
+}
+.hasValidation .form-control{
+    border-color: green;
+}
+.hasValidation label,.hasValidation span{
+    color: green;
+}
+
+.invalid .form-control{
+    border-color: red;
+}
+.invalid label,.invalid span{
+    color: red;
+}
+
+.s-soft{
+    position: fixed;
+    top: 100px ;
+    left: 0;
+    z-index: 1000; transition:all linear 0.2s ;
+}
+.s-soft.sagda_efektli{
+    right: 0!important;
+    left: inherit!important;
+}
+.s-soft a:first-child{ border-radius: 0 5px 0 0;
+}
+.s-soft a:last-child{
+    border-radius: 0 0 5px 0;
+}
+.s-item {
+    display:block;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    text-align:center;
+    transition:all linear 0.2s ;}
+.s-item:hover {
+    width:110px;
+    border-radius:0px 20px 20px 0px;
+}
+#so-open {
+    position: fixed;
+    top: 100px ;
+    left: -90px;
+    border-radius:0 30px 30px 0;
+    transition:all linear 0.2s ;
+}
+.facebook {background-color:  #3b5999;}
+.whatsapp {background-color:  #009687;}
+.twitter {background-color: #3AAFD6;}
+.print {background-color: #de3c7d;}
+.pinterest{background-color: #BD081C;}
+.linkedin{background-color: #0e76a8 ;}
+.instagram{background-color:  #c32aa3;}
+.so-collapse{left: -60px; }
