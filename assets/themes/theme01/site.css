@@ -547,7 +547,16 @@ h5 {
     text-align: start;
 }
 
+.site-navigation li{
+    padding: 0 15px;
+}
 
+.site-navigation .mdl-js-ripple-effect{
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px !important;
+    color: #ffffff !important;
+}
 
 
 #slider-1 {
@@ -756,9 +765,9 @@ body{
     color: white !important;
 }
 
-#site-header-menu #site-navigation .menu > ul > li > a {
+/* #site-header-menu #site-navigation .menu > ul > li > a {
     color: #fff !important;
-}
+} */
 
 .section-title h2.title {
     color: #000000;
