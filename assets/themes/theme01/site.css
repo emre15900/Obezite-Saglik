@@ -624,6 +624,7 @@ a.checkout-button,
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 70px;
 }
 .obezite-page .hood {
   line-height: 1.2em;
