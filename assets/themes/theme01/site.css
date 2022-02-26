@@ -506,7 +506,7 @@ h5 {
         z-index: 1;
         height: 70px;
         font-weight: 400;
-        line-height: 70px;
+        line-height: 55px;
     }
 
 }
@@ -523,6 +523,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0 0 0;
 }
 
 .site-branding2 .header-logo{
