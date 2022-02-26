@@ -511,6 +511,20 @@ h5 {
 
 }
 
+.prof-hood{
+    color: #000000;
+    font-size:37px;
+    text-align:center;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.prof-title{
+    font-size:16px;
+    line-height:1.6em; 
+    text-align:justify;
+}
+
 .ttm-header-icons, .ttm-header-icon {
     position: relative;
     height: 65px;
