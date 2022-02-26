@@ -595,77 +595,80 @@ a.checkout-button,
   margin: 30px 0;
 }
 
-.down-icon{
-    transform: rotate(270deg);
-    width: 45px;
-    height: 45px;
+.down-icon {
+  transform: rotate(270deg);
+  width: 45px;
+  height: 45px;
 }
-.down-icon svg{
-    fill: #212529;
-    width: 45px !important;
-    height: 45px !important;
-    stroke: #000000;
-    stroke-width: 3;
-    stroke-opacity: 1;
+.down-icon svg {
+  fill: #212529;
+  width: 45px !important;
+  height: 45px !important;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-opacity: 1;
 }
 
 @media (min-width: 768px) {
-    .pend-0{
-        padding-right: 0px;
-    }
-    .pstart-0{
-        padding-left: 0px;
-    }
-    }
-    .obezite-page-right{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-.obezite-page .hood{
-    line-height:1.2em; 
-    font-size:33px;
-    color: rgb(47,46,46);
-    letter-spacing: 0.05em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
+  .pend-0 {
+    padding-right: 0px;
+  }
+  .pstart-0 {
+    padding-left: 0px;
+  }
 }
-.obezite-page .text{
-    font-size:14px;
-    line-height: 2em;
-    color: rgb(0, 0, 0);
-    font-family: Helvetica, sans-serif;
-    letter-spacing: 0.05em;
-    margin-top: 20px;
-    opacity: 0.8;
+.ameliyat-sureci {
+  text-align: center;
 }
-.ucretsiz-randevu a{
-    border-radius: 0 !important;
+.obezite-page-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.obezite-page .hood {
+  line-height: 1.2em;
+  font-size: 33px;
+  color: rgb(47, 46, 46);
+  letter-spacing: 0.05em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+.obezite-page .text {
+  font-size: 14px;
+  line-height: 2em;
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+.ucretsiz-randevu a {
+  border-radius: 0 !important;
 }
 
 .prof-title .change-color {
   color: rgb(222, 80, 33);
   font-weight: bold;
 }
-.obezite-desc{
-    font-size:27px;
-    color: #DE5021;
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 0.05em;
-    margin: 20px 0;
+.obezite-desc {
+  font-size: 27px;
+  color: #de5021;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.05em;
+  margin: 20px 0;
 }
-.obezite-last{
-    font-size:22px !important;
+.obezite-last {
+  font-size: 22px !important;
 }
-.obezite-text{
-    font-size:15px;
-    letter-spacing: 0.05em;
-    color: rgb(0, 0, 0);
-    font-family: Helvetica, sans-serif;
-    opacity: 0.8;
+.obezite-text {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, sans-serif;
+  opacity: 0.8;
 }
-.obezite-hood{
-    margin: 25px 0;
+.obezite-hood {
+  margin: 25px 0;
 }
 .ttm-header-icons,
 .ttm-header-icon {
@@ -874,7 +877,7 @@ body {
   padding: 50px 30px;
 }
 .bg-proccess .bg-gray p {
-  background: #c0c0c0;
+  background: #F0F0F0;
   color: black;
 }
 
@@ -1366,6 +1369,46 @@ form label {
   width: 100% !important;
 }
 
+.brosur-iste a {
+  transition: inherit;
+  color: #ffffff !important;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  font-family: poppins-extralight, poppins, sans-serif;
+  font-size: 16px;
+  padding: 9px 20px;
+  border-radius: 0 !important;
+}
+
+.card-header a {
+  color: rgb(47, 46, 46) !important;
+  font: 18px / 1.6em helvetica-w01-light, helvetica-w02-light, sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: lighter;
+  opacity: 0.9;
+  font-style: normal;
+}
+.div-pad-first{
+    background: #F0F0F0;
+}
+.iconic-text{
+    font-family:didot-w01-italic,didot-w05-italic,serif;
+}
+.deneyim{
+    padding: 15px 0;
+letter-spacing: 0.07em;
+}
+.yardima-hazir{
+    font-family:avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+}
 ._3bLYT svg {
   fill: #212529;
   width: 20px;
@@ -1414,4 +1457,3 @@ footer .social-icons li > a,
     max-width: 1050px !important;
   }
 }
-
