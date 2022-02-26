@@ -617,12 +617,56 @@ a.checkout-button,
         padding-left: 0px;
     }
     }
+    .obezite-page-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.obezite-page .hood{
+    line-height:1.2em; 
+    font-size:33px;
+    color: rgb(47,46,46);
+    letter-spacing: 0.05em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+.obezite-page .text{
+    font-size:14px;
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.ucretsiz-randevu a{
+    border-radius: 0 !important;
+}
 
 .prof-title .change-color {
   color: rgb(222, 80, 33);
   font-weight: bold;
 }
-
+.obezite-desc{
+    font-size:27px;
+    color: #DE5021;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.05em;
+    margin: 20px 0;
+}
+.obezite-last{
+    font-size:22px !important;
+}
+.obezite-text{
+    font-size:15px;
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.obezite-hood{
+    margin: 25px 0;
+}
 .ttm-header-icons,
 .ttm-header-icon {
   position: relative;
@@ -1370,3 +1414,4 @@ footer .social-icons li > a,
     max-width: 1050px !important;
   }
 }
+
