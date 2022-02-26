@@ -626,6 +626,20 @@ a.checkout-button,
   justify-content: center;
   padding: 0 70px;
 }
+.article-hood .hood{
+    font-size:27px;
+    color: #de5021;
+    font-family: "Poppins", sans-serif;
+    margin: 60px 0 20px 0;
+    padding: 0 25px;
+}
+.post-detail p{
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    opacity: 0.8;
+}
 .obezite-page .hood {
   line-height: 1.2em;
   font-size: 33px;
