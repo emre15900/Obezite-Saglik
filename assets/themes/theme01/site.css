@@ -985,6 +985,23 @@ body {
 .kati-gida-con{
   padding: 0 80px;
 }
+.cerrahi-detail p{
+  color:#000000 !important;
+  font-size:15px;
+  line-height:1.6em;
+  font-style: italic;
+  font-family: italic normal normal 16px/1.6em poppins-extralight,poppins,sans-serif;
+  opacity: 1;
+}
+.cerrahi-hood{
+  font-size: 28px;
+  color: #de5021;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.05em;
+  line-height:1.3em;
+  margin: 20px 0;
+  font-weight: normal;
+}
 .kati-gida {
   color: #000000;
   font-family: poppins-extralight, poppins, sans-serif;
