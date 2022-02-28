@@ -982,37 +982,48 @@ body {
   letter-spacing: 0.15em;
   color: rgb(255, 255, 255) !important;
 }
-.kati-gida-con{
+.kati-gida-con {
   padding: 0 80px;
 }
-.contact-h2{
-  text-align:center; font-size:33px;
+.contact-h2 {
+  text-align: center;
+  font-size: 33px;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.05em;
-  color: rgb(47,46,46);
+  color: rgb(47, 46, 46);
   line-height: 55px !important;
 }
-.randevu-konusmasi{
-  text-align:center; font-size:15px;
+.contact-h3 {
+  font-size: 33px;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.05em;
-  font-family: normal normal normal 15px/1.6em helvetica-w01-light,helvetica-w02-light,sans-serif;
-  color: rgb(0, 0, 0);
-  opacity: .9;
+  color: rgb(47, 46, 46);
+  line-height: 55px !important;
 }
-.cerrahi-detail p{
-  color:#000000 !important;
-  font-size:15px;
-  line-height:1.6em;
+.randevu-konusmasi {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  font-family: normal normal normal 15px/1.6em helvetica-w01-light,
+    helvetica-w02-light, sans-serif;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.cerrahi-detail p {
+  color: #000000 !important;
+  font-size: 15px;
+  line-height: 1.6em;
   font-style: italic;
-  font-family: italic normal normal 16px/1.6em poppins-extralight,poppins,sans-serif;
+  font-family: italic normal normal 16px/1.6em poppins-extralight, poppins,
+    sans-serif;
   opacity: 1;
 }
-.cerrahi-hood{
+.cerrahi-hood {
   font-size: 28px;
   color: #de5021;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.05em;
-  line-height:1.3em;
+  line-height: 1.3em;
   margin: 20px 0;
   font-weight: normal;
 }
@@ -1411,7 +1422,18 @@ footer h3 {
 .contact-top {
   padding: 50px 10px;
 }
-.back-call{
+.contant-bg {
+  background: #f0f0f0;
+}
+.text-brosur {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-call {
   padding-top: 40px;
 }
 form input:not([type="checkbox"]),
